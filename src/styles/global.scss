@@ -1,0 +1,36 @@
+:root {
+  --purple: #340572;
+  --green: #3FAD27;
+  --red: 	#ad273f;
+  --background: #c9c9c9;
+  --shapes: #f4edfa;
+  --text-title: #6e03fa;
+   --text: #423e3e;
+  --text-light: #A09CB1;
+  --text-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px "Poppins", Arial, sans-serif;
+  color: #121214;
+}
+
+input, textarea {
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+}
+
+button, .checkmark {
+  cursor: pointer;
+}
